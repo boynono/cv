@@ -1,0 +1,2 @@
+# cv
+berlatih membuat CV
