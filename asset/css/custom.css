@@ -1,0 +1,64 @@
+@font-face {
+    font-family: 'dk_pastisregular';
+    src: url('../font/dk_pastis.woff2') format('woff2'),
+         url('../font/dk_pastis.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+html {
+	font-family: 'Lora', serif;
+}
+body {
+	font-family: 'Lora', serif;
+}
+.bg-transparan{
+	color: transparent;
+}
+.navbar{
+	position: absolute;
+	z-index: 1;
+	width: 100%;
+	padding: 0.5rem 4rem;
+}
+h1{
+	font-family: 'dk_pastisregular';
+	font-weight: bold;
+}
+section{
+	padding: 4rem 4rem;
+}
+.col-sm-4{
+	margin-bottom: 30px;
+}
+.rounded {
+    border-radius: 0.5rem !important;
+}
+.masonry-column {
+  padding: 0 1px;
+}
+.masonry-column .mason{
+	padding: 20px;
+	width: 100%
+}
+.masonry-grid > div .thumbnail {
+  margin: 5px 1px;
+}
+.card hr{
+	border-top: 4px solid #f8f9fa;
+    width: 20%;
+    float: left;
+}
+.card-body{
+	color: #fff;
+	text-align: left;
+}
+.card-title {
+    padding-top: 200px;
+    font-family: 'dk_pastisregular';
+	font-weight: bold;
+}
+.card-overlay{
+  	background-size:cover!important;
+  	background-repeat: no-repeat!important;
+}
